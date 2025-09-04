@@ -41,56 +41,71 @@ Description: changed from main branch to feature1 branch
 
 Que 11: Make a small change in the code (edit app.py)
 Command: *Use a code editor (VSCode, nano, etc.)*
+Description: edited the code on app.py
 
 Que 12: Add and commit the change
 Command:
 git add app.py
 git commit -m "Updated Hello World on feature1 branch"
+Description: I see the edited code in my branch
 
 Que 13: Switch back to the main branch
 Command: git checkout main
+Des: went back to main branch
 
 Que 14: Merge feature1 into main
 Command: git merge feature1
+des: merged the feature1 changes with main repo 
 
 Que 15: Push the updated main branch to GitHub
 Command: git push
+des: pushed the changes
 
 Que 16: Delete the feature branch locally
 Command: git branch -d feature1
+des: deleted the featre1 branch
 
 Que 17: Create a new remote branch and push it
 Command:
 git checkout -b test-branch
 git push -u origin test-branch
+des: created a test-branch
 
 Que 18: View all branches (local and remote)
 Command: git branch -a
+des: showed me all my branches
 
 Que 19: Check current status of working directory
 Command: git status
+des: showed me which directory I was in green was I was in that directory and red was I was not in it
 
 Que 20: See last few commits as one-line summary with graph
 Command: git log --oneline --graph
+des: showed me the timeline of changes and pushes I made
 
 Que 21: Check remote URL configuration
 Command: git remote -v
+des: a management tool for your record of remote repositories
 
 Que 22: Get help on git branch
 Command: git help branch
+des: takes you to a github help page
 
 Que 23: Add a .gitignore file to ignore .DS_Store and .ipynb_checkpoints/ and
 __pycache__/
 Command: *Use text editor to create .gitignore*
 Make sure to put relevant file paths to ignore in it (if any).
+des: created a .gitignore file
 
 Que 24: Add and commit your .gitignore file
 Command:
 git add .gitignore
 git commit -m "Add .gitignore file"
+des: added .gitignore to main branch
 
 Que 25: Push the updated .gitignore to GitHub
 Command: git push
+des: pushed the changes
 --------------------------------------------------
 Important Final Step:
 --------------------------------------------------
