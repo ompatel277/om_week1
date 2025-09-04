@@ -5,6 +5,7 @@ Description: reinitalized the git repo on my laptop
 Que 2: Create a simple Python file using echo
 Command (Mac): echo "print('Hello World')" > app.py
 Command (Windows): echo print("Hello World") > app.py
+Description: added the app.py to the practice folder
 
 Que 3: Add all files to the staging area
 Command: git add .
