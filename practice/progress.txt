@@ -21,6 +21,7 @@ Command: git push -u origin main
 
 Que 7: Edit the progress.txt file directly on the GitHub website
 Command: *No terminal command — edit on GitHub*
+Description: editing on github!
 
 Que 8: Pull the updated progress.txt to your local machine
 Command: git pull origin main
