@@ -1,5 +1,6 @@
 Que 1: Initialize a Git repository in your local folder
 Command: git init
+Description: reinitalized the git repo on my laptop
 
 Que 2: Create a simple Python file using echo
 Command (Mac): echo "print('Hello World')" > app.py
