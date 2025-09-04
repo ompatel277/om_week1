@@ -1,0 +1,89 @@
+Que 1: Initialize a Git repository in your local folder
+Command: git init
+
+Que 2: Create a simple Python file using echo
+Command (Mac): echo "print('Hello World')" > app.py
+Command (Windows): echo print("Hello World") > app.py
+
+Que 3: Add all files to the staging area
+Command: git add .
+
+Que 4: Commit the staged files
+Command: git commit -m "Initial commit"
+
+Que 5: Add a remote origin to your GitHub repository
+Command: git remote add origin <your-repo-URL>
+
+Que 6: Push your committed changes to GitHub
+Command: git push -u origin main
+
+Que 7: Edit the progress.txt file directly on the GitHub website
+Command: *No terminal command — edit on GitHub*
+
+Que 8: Pull the updated progress.txt to your local machine
+Command: git pull origin main
+
+Que 9: Create a new branch for a feature
+Command: git branch feature1
+
+Que 10: Switch to the new branch
+Command: git checkout feature1
+
+Que 11: Make a small change in the code (edit app.py)
+Command: *Use a code editor (VSCode, nano, etc.)*
+
+Que 12: Add and commit the change
+Command:
+git add app.py
+git commit -m "Updated Hello World on feature1 branch"
+
+Que 13: Switch back to the main branch
+Command: git checkout main
+
+Que 14: Merge feature1 into main
+Command: git merge feature1
+
+Que 15: Push the updated main branch to GitHub
+Command: git push
+
+Que 16: Delete the feature branch locally
+Command: git branch -d feature1
+
+Que 17: Create a new remote branch and push it
+Command:
+git checkout -b test-branch
+git push -u origin test-branch
+
+Que 18: View all branches (local and remote)
+Command: git branch -a
+
+Que 19: Check current status of working directory
+Command: git status
+
+Que 20: See last few commits as one-line summary with graph
+Command: git log --oneline --graph
+
+Que 21: Check remote URL configuration
+Command: git remote -v
+
+Que 22: Get help on git branch
+Command: git help branch
+
+Que 23: Add a .gitignore file to ignore .DS_Store and .ipynb_checkpoints/ and
+__pycache__/
+Command: *Use text editor to create .gitignore*
+Make sure to put relevant file paths to ignore in it (if any).
+
+Que 24: Add and commit your .gitignore file
+Command:
+git add .gitignore
+git commit -m "Add .gitignore file"
+
+Que 25: Push the updated .gitignore to GitHub
+Command: git push
+--------------------------------------------------
+Important Final Step:
+--------------------------------------------------
+Que 26: Go to your GitHub repository, click on the 'Insights > Network' tab. Take a
+screenshot of the graph showing your branching and merging history.
+Paste screenshot in your repo and make one final push.
